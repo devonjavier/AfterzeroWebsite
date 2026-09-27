@@ -1,7 +1,7 @@
 # Afterzero Website
 
 React + TypeScript frontend, initialized with the official Vite `react-ts` template.
-This stage contains only a minimal initialization screen; the approved website design has not been implemented.
+The responsive landing page implements the approved concept, including desktop Shop dropdown, mobile navigation, local collection filters, search and product preview dialogs. No checkout or backend is connected.
 
 ## Local development
 
@@ -62,3 +62,12 @@ Its configuration was moved into the project root, its demo replaced with a mini
 and the temporary scaffold removed. Existing `public/` and `design/` files were preserved.
 
 References: https://vite.dev/guide/ and https://react.dev/learn/build-a-react-app-from-scratch
+
+
+## Landing page assets
+
+The hero in `public/images/hero.png` is an illustrative image generated with the built-in image tool. The three product thumbnails use CSS crops of `public/images/product-concepts.png`, the approved design preview. These are placeholders for final product photography. Original logos and wave assets remain unchanged.
+
+Hero generation prompt: Standalone wide 3:2 sports editorial photograph for Afterzero website hero. Two adult athletic runners, woman center and man right, moving on urban running track, cool overcast light, muted grain, dark blurred city at left 40% for text overlay. Woman wears black running singlet with subtle grey angular mirrored wave chevrons, man wears chocolate brown performance tee with muted slate blue mirrored jagged waves. Small white AFTERZERO wordmark on clothing only. Realistic sports fashion campaign. No typography overlay, no UI, no buttons, no borders. Runners fill right two thirds of photograph.
+
+Fonts: Barlow and Barlow Condensed from Google Fonts, with local sans-serif fallbacks. No new npm dependencies were added for the landing page.
